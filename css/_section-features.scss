@@ -1,0 +1,33 @@
+.section-features {
+  padding: 60px 0;
+  .feature-col {
+    text-align: center;
+    .feature-img-wrap {
+      width: 98px;
+      height: 98px;
+      border-radius: 50%;
+      background-color: $green;
+      display: inline-block;
+      margin-bottom: 30px;
+      line-height: 98px;
+      .feature-icon {
+        color: #fff;
+        font-size: 43px;
+        vertical-align: middle;
+      }
+    }
+    .feature-heading {
+      color: #222222;
+      font-family: Raleway;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 32px;
+      margin: 0 0 25px;
+    }
+    .feature-description {
+      color: #848484;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}

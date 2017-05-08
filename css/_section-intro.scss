@@ -1,0 +1,53 @@
+$sectionHeight: 600px;
+
+.section-intro {
+    height: $sectionHeight;
+    background: url('../img/intro-bg.jpg') no-repeat center;
+    border-top: 10px solid $green;
+    .intro-col-left,
+    .intro-col-right {
+        height: $sectionHeight - 10px;
+    }
+    .intro-col-left {
+        padding-top: 167px;
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 1;
+            color: #ffffff;
+            margin: 0 0 36px;
+        }
+        p {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 26px;
+        }
+        .operating-system-link {
+            width: 52px;
+            height: 52px;
+            background-color: #030303;
+            opacity: .7;
+            text-align: center;
+            line-height: 52px;
+            color: #fff;
+            float: left;
+            margin-right: 16px;
+            border-radius: 50%;
+            transition: background .3s, opacity .3s;
+            font-size: 25px;
+            &:hover {
+                background: $green;
+                opacity: 1;
+            }
+        }
+    }
+    .intro-col-right {
+        line-height: $sectionHeight - 10px;
+        .intro-img {
+            vertical-align: bottom;
+        }
+    }
+}
