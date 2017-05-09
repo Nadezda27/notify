@@ -1,3 +1,7 @@
+section {
+  padding: 60px 0;
+}
+
 h2 {
   color: #222222;
   font-family: Raleway;
@@ -5,6 +9,22 @@ h2 {
   font-weight: 600;
   line-height: 32px;
   margin: 0 0 25px;
+}
+
+h3 {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+h4 {
+  color: #2e2e2e;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 28px;
 }
 
 p {
@@ -21,7 +41,18 @@ p {
   color: #2ecc71;
 }
 
+.horizontal-centered-list {
+  padding: 0;
+  font-size: 0;
+  display: inline-block;
+}
+.horizontal-centered-list > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
 .section-intro {
+  padding: 0;
   height: 600px;
   background: url("../img/intro-bg.jpg") no-repeat center;
   border-top: 10px solid #2ecc71;
@@ -73,9 +104,6 @@ p {
   vertical-align: bottom;
 }
 
-.section-features {
-  padding: 60px 0;
-}
 .section-features .feature-col {
   text-align: center;
 }
@@ -96,7 +124,6 @@ p {
 
 .section-subscribe {
   background-color: #e3e3e3;
-  padding: 60px 0;
 }
 .section-subscribe .subscription-form {
   margin: 18px 0 30px;
@@ -147,6 +174,51 @@ p {
 }
 .section-subscribe .video-iframe {
   border-radius: 7px;
+}
+
+.section-social .section-quote {
+  color: #848484;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+  margin: 0 0 25px;
+  padding: 0;
+  border: 0;
+}
+.section-social .customers-list {
+  margin-bottom: 60px;
+}
+.section-social .customers-list .customer-item {
+  margin-right: 5px;
+}
+.section-social .customers-list .customer-item:last-child {
+  margin-right: 0;
+}
+.section-social .social-icon-list {
+  margin: 14px 0 0;
+}
+.section-social .social-icon-list .social-icon-item {
+  margin: 0 5px;
+}
+.section-social .social-icon-list .social-icon-item .social-icon-link {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 17px;
+  background-color: #c5c5c5;
+  display: block;
+  font-size: 19px;
+  color: #fff;
+  opacity: .5;
+  transition: background .3s, opacity .3s;
+}
+.section-social .social-icon-list .social-icon-item .social-icon-link:hover {
+  background: #2ecc71;
+  opacity: 1;
+}
+.section-social .social-icon-list .social-icon-item .social-icon-link span {
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */

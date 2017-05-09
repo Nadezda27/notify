@@ -1,6 +1,7 @@
 $sectionHeight: 600px;
 
 .section-intro {
+    padding: 0;
     height: $sectionHeight;
     background: url('../img/intro-bg.jpg') no-repeat center;
     border-top: 10px solid $green;
