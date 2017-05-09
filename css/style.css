@@ -188,6 +188,27 @@ p {
 }
 .section-social .customers-list {
   margin-bottom: 60px;
+  position: relative;
+}
+.section-social .customers-list::before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-social .customers-list::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .section-social .customers-list .customer-item {
   margin-right: 5px;
